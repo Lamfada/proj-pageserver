@@ -68,9 +68,15 @@ def respond(sock):
     print("\nRequest was {}\n".format(request))
 
     parts = request.split()
-    if len(parts) > 1 and parts[0] == "GET":
-        transmit("HTTP/1.0 200 OK\n\n", sock)
-        transmit(CAT, sock)
+    if len(parts) > 1 and parts[0] == "GET" and '..' not in parts[1] and '~' not in parts[1] and '//' not in parts[1]:
+        if parts[1].endswith('.html') or parts[1].endswith(".css"):
+            transmit("HTTP/1.0 200 OK\n\n", sock)
+            parts[1] = "."+parts[1]
+            f = open(parts[1],"r")
+            transmit(f.read(),sock)
+        else:
+            transmit("HTTP/1.0 200 OK\n\n", sock)
+            transmit(CAT, sock)
     else:
         transmit("\nI don't handle this request: {}\n".format(request), sock)
 

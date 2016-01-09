@@ -24,6 +24,8 @@ A "getting started" project for CIS 322, software engineering 1 at University of
 * Give repository access to the instructor (user MichalYoung on github)
 * Turn in the URL to your repository so I can clone and test it for grading.  We will use Canvas for turn-in, but you turn in only the URL of your Github repository, not your files. 
 
+*Github URL https://github.com/Lamfada/proj-pageserver
+
 ### Who do I talk to? ###
 
 * Maintained by Michal Young, michal@cs.uoregon.edu
