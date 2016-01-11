@@ -7,9 +7,6 @@ Socket programming in Python
   error handling and many other things to keep the illustration as simple
   as possible. 
 
-  FIXME:
-  Currently this program always serves an ascii graphic of a cat.
-  Change it to serve files if they end with .html and are in the current directory
 """
 
 import socket    # Basic TCP/IP communication on the internet
