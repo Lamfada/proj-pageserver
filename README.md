@@ -2,6 +2,10 @@
 
 A "getting started" project for CIS 322, software engineering 1 at University of Oregon.
 
+###Student Info###
+Jacob Lowen
+https://github.com/Lamfada/proj-pageserver
+
 ### What is this repository for? ###
 
 * The objectives of this mini-project are:
@@ -29,4 +33,4 @@ A "getting started" project for CIS 322, software engineering 1 at University of
 ### Who do I talk to? ###
 
 * Maintained by Michal Young, michal@cs.uoregon.edu
-* Use our Piazza group for questions. Make them public (anonymous or not as you prefer) unless you have a good reason to make them private, so that everyone benefits from answers and discussion. 
+* Use our Piazza group for questions. Make them public (anonymous or not as you prefer) unless you have a good reason to make them private, so that everyone benefits from answers and discuss
